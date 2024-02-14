@@ -60,10 +60,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp Q                 &kp W             &kp E             &kp R               &kp T         &kp Y      &kp U                &kp I              &kp O             &kp P                          &kp BSPC
-&lt 5 ESCAPE    &hrml LEFT_CONTROL A  &hrml LEFT_ALT S  &hrml LEFT_GUI D  &hrml LEFT_SHIFT F  &kp G         &kp H      &hrmr RIGHT_SHIFT J  &hrmr RIGHT_GUI K  &hrmr LEFT_ALT L  &hrmr RIGHT_CONTROL SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z                 &kp X             &kp C             &kp V               &kp B         &kp N      &kp M                &kp COMMA          &kp DOT           &kp FSLH                       &kp MINUS
-                                                        &mo 3             &mo 2               &kp RETURN    &kp SPACE  &mo 1                &mo 4
+&kp TAB         &kp Q             &kp W             &kp E          &kp R               &kp T         &kp Y      &kp U                &kp I          &kp O             &kp P                      &kp BSPC
+&lt 5 ESCAPE    &hrml LEFT_GUI A  &hrml LEFT_ALT S  &hrml LCTRL D  &hrml LEFT_SHIFT F  &kp G         &kp H      &hrmr RIGHT_SHIFT J  &hrmr RCTRL K  &hrmr LEFT_ALT L  &hrmr RIGHT_GUI SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z             &kp X             &kp C          &kp V               &kp B         &kp N      &kp M                &kp COMMA      &kp DOT           &kp FSLH                   &kp MINUS
+                                                    &mo 3          &mo 2               &kp RETURN    &kp SPACE  &mo 1                &mo 4
             >;
         };
 
@@ -90,19 +90,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp BSPC
-&kp ESCAPE  &trans    &trans  &trans    &trans    &trans        &kp MINUS  &kp EQUAL  &kp BACKSLASH    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
-&kp LSHFT   &trans    &trans  &trans    &trans    &trans        &kp UNDER  &kp PLUS   &kp PIPE         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp TILDE
+&kp TAB     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET  &kp AMPS   &kp STAR       &kp LPAR          &kp RPAR           &kp BSPC
+&kp ESCAPE  &trans    &trans  &trans    &trans    &trans        &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
+&kp LSHFT   &trans    &trans  &trans    &trans    &trans        &kp UNDER  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp TILDE
                               &trans    &trans    &kp RETURN    &kp SPACE  &trans     &trans
             >;
         };
 
         workflow_macros {
             bindings = <
-&kp LG(TAB)  &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(NUMBER_5)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans            &trans            &trans            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans
-                                                 &trans            &trans            &trans              &trans  &trans  &trans
+&trans  &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(NUMBER_5)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans            &trans            &trans              &trans  &trans  &trans
             >;
         };
 
